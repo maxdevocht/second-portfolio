@@ -9,7 +9,7 @@ export default function Header() {
             </div>
 
             <div className="min-h-52 w-1/2 flex items-center justify-center border-black border border-solid rounded-[30px] shadow-lg max-[835px]:w-full">
-                <img autoPlay muted loop src="./public/img/memoji_gif2.gif" alt="memoji" className="object-cover w-80 max-[835px]:w-60"/>
+                <img autoPlay muted loop src="../public/img/memoji_gif2.gif" alt="memoji" className="object-cover w-80 max-[835px]:w-60"/>
             </div>
         </header>
     )
