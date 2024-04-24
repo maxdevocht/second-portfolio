@@ -10,9 +10,10 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: white;
     background-image:
-        radial-gradient(at 60% 0%, rgb(87, 134, 229) 0px, transparent 40%),
-        radial-gradient(at 40% 5%, rgb(255, 183, 101) 0px, transparent 50%),
+        radial-gradient(at 60% 5%, rgb(217, 229, 87) 0px, transparent 40%),
+        radial-gradient(at 40% 10%, rgb(255, 173, 80) 0px, transparent 50%),
         radial-gradient(at 49% 76%, #ffffff 0px, transparent 50%);
 }
