@@ -13,7 +13,7 @@ export default function Links() {
             </div>
             <div className="w-full flex gap-1">
                 <a href="https://my-todo-checklist.netlify.app" className="w-2/5 border-black border border-solid rounded-[30px] pl-14 shadow-lg text-[45px] font-outfit font-light italic tracking-wide hover:text-white hover:bg-black transition-all ease-in-out duration-75 max-[1100px]:text-[30px] max-[1100px]:py-2 max-[835px]:text-[18px] max-[835px]:pl-6 max-[480px]:text-[14px]">MY TODO APP</a>
-                <a href="#" className="w-3/5 border-black border border-solid rounded-[30px] pl-14 shadow-lg text-[45px] font-outfit font-light italic tracking-wide hover:text-white hover:bg-black transition-all ease-in-out duration-75 max-[1100px]:text-[30px] max-[1100px]:py-2 max-[835px]:text-[18px] max-[835px]:pl-6 max-[480px]:text-[14px]">MEME GENERATOR</a>
+                <a href="https://my-first-meme-generator.netlify.app" className="w-3/5 border-black border border-solid rounded-[30px] pl-14 shadow-lg text-[45px] font-outfit font-light italic tracking-wide hover:text-white hover:bg-black transition-all ease-in-out duration-75 max-[1100px]:text-[30px] max-[1100px]:py-2 max-[835px]:text-[18px] max-[835px]:pl-6 max-[480px]:text-[14px]">MEME GENERATOR</a>
             </div>
         </section>
     )
