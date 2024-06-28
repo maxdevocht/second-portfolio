@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Links from './components/Links';
@@ -9,13 +8,17 @@ import './App.css'
 function App() {
 
   return (
-    <>
-      <Navbar />
-      <Header />
-      <Links />
-      <More />
-      <Footer />
-    </>
+    <div className='min-h-screen flex flex-col justify-between'>
+      <main>
+        <Navbar />
+        <Header />
+        <Links />
+        <More />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   )
 }
 
